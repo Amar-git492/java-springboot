@@ -18,9 +18,9 @@ pipeline {
                 echo 'UAT'
             }
         }
-        stage('Stagging') {
+        stage('push') {
             steps {
-                echo 'Stagging'
+                echo 'push'
             }
         }
         stage('production') {
