@@ -30,6 +30,9 @@ pipeline {
         }
     }
     post { 
+        always { 
+            echo 'welcome'
+        }
         failure { 
             echo 'failure'
         }
